@@ -11,6 +11,13 @@ function Navigation() {
       <Link to="/courses" className="underline" style={{ margin: '30px' }}>
         Курсы
       </Link>
+      |
+      <Link to="/registration" className="underline" style={{ margin: '30px' }}>
+        регистрация
+      </Link>
+      <Link to="/login" className="underline" style={{ margin: '30px' }}>
+        войти
+      </Link>
     </nav>
   );
 }
