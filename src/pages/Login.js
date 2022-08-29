@@ -19,7 +19,7 @@ const Login= () => {
     setLoading(true)
     
     fetch(
-          "http://127.0.0.1:8000/api-auth/login/",
+          "http://127.0.0.1:8000/api-token-auth/",
            {
      
             // Adding method type

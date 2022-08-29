@@ -5,9 +5,9 @@ import Navigation from '../components/Navigation';
 function Layout() {
   return (
     <>
-      <Navigation />
+      <Navigation/>
       <br />
-      <main style={{ padding: '30px' }}>
+      <main style={{ padding: '30px'}}>
         <Outlet />
       </main>
     </>
